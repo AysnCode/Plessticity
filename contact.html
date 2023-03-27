@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Projects</title>
+	<style>
+
+	body {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#procontainer {
+		padding: 10%;
+		flex: 1 1 80%;
+		min-height: 100vh;
+	}
+
+	#procontent {
+		display: grid;
+		text-align: center;
+		height: 100%;
+		grid-auto-rows:repeat(12, 1fr);
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 5px;
+		padding: 2%;
+	}
+
+	#procontent-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		font-weight: bold;
+		width: 92%;
+   		margin-left: 4%;
+    	margin-right: 4%;	
+	}
+
+	.procontent-item.box1{
+		grid-row: 1;
+		grid-column: 1;
+		font-family: 'Karla', sans-serif;
+		font-weight: bold;
+		font-size: 100px;
+		color: red;
+		
+	}
+
+	.procontent-item.box2{
+		grid-row: 2;
+		font-family: 'Oswald', sans-serif;
+		font-size: 20px;
+		color: white;
+		background: rgba(0,0,0,.5);
+		text-justify: inter-word;
+		text-align: center;
+		padding: 3%;
+	}
+		.procontent-item.box3{
+		grid-row: 3/ span 5;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		color: white;
+		background: rgba(0,0,0,.5);
+		text-justify: inter-word;
+		text-align: center;
+		padding: 3%;
+	}
+	.procontent-item.box4{
+		display: inline;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		color: white;
+	
+		text-justify: inter-word;
+		text-align: center;
+		padding: 3%;
+	}
+	.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: red;
+    color: white;
+}
+.fa-twitter {
+    background: red;
+    color: white;
+}
+.fa-instagram{
+    background: red;
+    color: white;
+}
+
+</style>
+	<header>
+	<div id="nav">
+		<ul>
+		<li>
+			<a id="home" href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="about.html">About</a>
+		</li>
+		<li>
+			<a href="announcements.html">Announcements</a>
+		</li>
+		<li>
+			<a class="active" href="projects.html">Projects</a>
+		</li>
+		<li>
+			<a href="contact.html">Contact us</a>
+		</li>
+		</ul>
+	</div>
+</header>
+</head>
+<body id="probody">
+	<div id="procontainer">
+		<div id="procontent">
+			<div class="procontent-item box1">CONTACT US</div>
+			<div class="procontent-item box2">For more inquiries: <br>
+	
+			We are committed to connect with our members concerning our project and make every effort to respond to inquiries as soon as possible.
+
+			</div>
+			<div class="procontent-item box3">Name:<br><input type="text" name="fname" style="width: 500px"><br>Email:<br><input type="text" name="lname" style="width: 500px"><br>Title:<br><input type="text" name="em" style="width: 500px"><br>Question:<br><input type="text" name="em" style="width: 500px"><br><br><a type="button" href="ty2.html">Contact Us!</div>
+			<div class="procontent-item box4"><a href="fb.com/plessticity" class="fa fa-facebook"></a> <a href="twitter.com/plessticity" class="fa fa-twitter"></a> <a href="instagram.com/plessticity" class="fa fa-instagram"></a></div>
+		</div>
+	</div>
+	
+</body>
+</html>

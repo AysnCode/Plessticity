@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<title>Projects</title>
+	<style>
+
+	body {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#procontainer {
+		padding: 10%;
+		flex: 1 1 80%;
+		min-height: 100vh;
+	}
+
+	#procontent {
+		display: grid;
+		text-align: center;
+		height: 100%;
+		grid-auto-rows:repeat(12, 1fr);
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 5px;
+		padding: 2%;
+	}
+
+	#procontent-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		font-weight: bold;
+		width: 92%;
+   		margin-left: 4%;
+    	margin-right: 4%;	
+	}
+
+	.procontent-item.box1{
+		grid-row: 1;
+		grid-column: 1;
+		font-family: 'Karla', sans-serif;
+		font-weight: bold;
+		font-size: 100px;
+		color: red;
+		
+	}
+
+	.procontent-item.box2{
+		grid-row: 2;
+		font-family: 'Oswald', sans-serif;
+		font-size: 20px;
+		color: white;
+		background: rgba(0,0,0,.5);
+		text-justify: inter-word;
+		text-align: center;
+		padding: 3%;
+	}
+		.procontent-item.box3{
+		grid-row: 3/ span 5;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		color: white;
+		background: rgba(0,0,0,.5);
+		text-justify: inter-word;
+		text-align: center;
+		padding: 3%;
+	}
+
+</style>
+	<header>
+	<div id="nav">
+		<ul>
+		<li>
+			<a id="home" href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="about.html">About</a>
+		</li>
+		<li>
+			<a href="announcements.html">Announcements</a>
+		</li>
+		<li>
+			<a class="active" href="projects.html">Projects</a>
+		</li>
+		<li>
+			<a href="contact.html">Contact us</a>
+		</li>
+		</ul>
+	</div>
+</header>
+</head>
+<body id="probody">
+	<div id="procontainer">
+		<div id="procontent">
+			<div class="procontent-item box1">PETITION</div>
+			<div class="procontent-item box2">Your gift to Plessticity helps us hold polluters accountable, keep our country safe and clean.
+
+			Let’s work together and inspire thousands of people each year to become better stewards for our country!
+			</div>
+			<div class="procontent-item box3">First Name:<br><input type="text" name="fname" style="width: 500px"><br>Last Name:<br><input type="text" name="lname" style="width: 500px"><br>Email:<br><input type="text" name="em" style="width: 500px"><br><br><a type="button" href="ty1.html">Sign this Petition!</div>
+		</div>
+	</div>
+	
+</body>
+</html>

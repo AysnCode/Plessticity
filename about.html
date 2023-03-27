@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<style>
+	
+	body {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.container {
+		padding: 5%;
+		flex: 1 1 80%;
+		min-height: 100vh;
+
+	}
+	.content {
+		display: grid;
+		height: 100%;
+		grid-auto-rows:repeat(12, 1fr);
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 5px;
+		padding: 2%;
+	}
+	.content-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		font-weight: bold;
+	
+		
+	}
+
+	.content-item.box1{
+		grid-row: span 2;
+		grid-column: span 5;
+		font-family: 'Karla', sans-serif;
+		font-weight: bold;
+		font-size: 150px;
+		color: red;
+
+
+
+	}
+
+	.content-item.box2{
+		grid-row: 4/ span 1;
+		grid-column: 2/ span 3;
+		font-family: 'Oswald', sans-serif;
+		font-size: 20px;
+		color: white;
+		background: rgba(0,0,0,.5);
+		text-justify: inter-word;
+		text-align: center;
+		padding: 3%;
+
+
+	}
+	.content-item.box3{
+		grid-row: 3;
+		grid-column: 2/ span 3;
+		font-family: 'Oswald', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		color: white;
+		text-align: justify-all;
+		justify-content: center;
+	}
+	.content-item.box4{
+		grid-row: 3/ span 2;
+		font-family: 'Oswald', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		color: white;
+		text-align: justify-all;
+		justify-content: center;
+		
+	}
+	.content-item.box5{
+		grid-row: 3/ span 2;
+		font-family: 'Oswald', sans-serif;
+		font-weight: bold;
+		font-size: 40px;
+		color: white;
+		text-align: justify-all;
+		justify-content: center;
+		
+	}
+	.content-item.box6{
+		grid-column: 1/ span 6;
+		font-family: 'Oswald', sans-serif;
+		font-weight: bold;
+		font-size: 50px;
+		color: red;
+		text-align: justify-all;
+		justify-content: center;
+		
+	}
+
+
+	.content2{
+		display: grid;
+		height: 100%;
+		grid-auto-rows:repeat(12, 1fr);
+		grid-template-columns: repeat(10, 1fr);
+		grid-gap: 5px;
+		padding: 3%;
+
+	}
+	.content-item.box7{
+		grid-column: 1/ span 11;
+		grid-row: 1/ span 3;
+		font-family: 'Oswald', sans-serif;
+		font-weight: bold;
+		font-size: 120px;
+		color: white;
+		background-image: url(images/8.jpg);
+		background-size: 100% 100%;
+		background-position: cover;
+		background-repeat: no-repeat;
+	}
+	.content-item.box8 {
+		grid-column: 1/ span 5;
+		grid-row: 4;
+		background: rgba(0,0,0,.5);
+	}
+	.content-item.box9 {
+		grid-column: 6/ span 10;
+		grid-row: 4;
+		background: rgba(0,0,0,.5);
+	}
+	.content-item.box10 {
+		grid-column: 1/ span 5;
+		grid-row: 4;
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 1%;
+
+	}
+	.content-item.box11 {
+		grid-column: 1/ span 5;
+		grid-row: 5;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 5%;
+		color: white;
+		background: rgba(0,0,0,.5);
+
+	}
+	.content-item.box12 {
+		grid-column: 6/ span 10;
+		grid-row: 4;
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 1%;
+
+	}
+
+	.content-item.box13 {
+		grid-column: 6/ span 10;
+		grid-row: 5;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 5%;
+		color: white;
+		background: rgba(0,0,0,.5);
+
+	}
+	.content-item.box14 {
+		grid-column: 1/ span 5;
+		grid-row: 6;
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 1%;
+		background: rgba(0,0,0,.5);
+
+	}
+	.content-item.box15 {
+		grid-column: 1/ span 5;
+		grid-row: 7;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 5%;
+		color: white;
+		background: rgba(0,0,0,.5);
+
+	}
+	.content-item.box16 {
+		grid-column: 6/ span 10;
+		grid-row: 6;
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 1%;
+		background: rgba(0,0,0,.5);
+
+	}
+
+	.content-item.box17 {
+		grid-column: 6/ span 10;
+		grid-row: 7;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 5%;
+		color: white;
+		background: rgba(0,0,0,.5);
+
+	}
+
+		.content-item.box18 {
+		grid-column: 1/ span 5;
+		grid-row: 8;
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 1%;
+		background: rgba(0,0,0,.5);
+
+	}
+	.content-item.box19 {
+		grid-column: 1/ span 5;
+		grid-row: 9;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 5%;
+		color: white;
+		background: rgba(0,0,0,.5);
+
+	}
+	.content-item.box20 {
+		grid-column: 6/ span 10;
+		grid-row: 8;
+		color: white;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 1%;
+		background: rgba(0,0,0,.5);
+
+	}
+
+	.content-item.box21 {
+		grid-column: 6/ span 10;
+		grid-row: 9;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		padding: 5%;
+		color: white;
+		background: rgba(0,0,0,.5);
+
+	}
+
+
+	#away{
+		color: red;
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+
+	}
+</style>
+	<header>
+	<div id="nav">
+		<ul>
+		<li>
+			<a href="index.html">Home</a>
+		</li>
+		<li>
+			<a class="active" href="about.html">About</a>
+		</li>
+		<li>
+			<a href="announcements.html">Announcements</a>
+		</li>
+		<li>
+			<a href="projects.html">Projects</a>
+		</li>
+		<li>
+			<a href="contact.html">Contact us</a>
+		</li>
+	</ul>
+	
+</div>
+
+</header>
+</head>
+
+
+<body id="aboutbody">
+	<div class="container">
+		<div class="content">
+			<div class="content-item box1">P·LESS·TI·CITY </div>
+			<div class="content-item box2"> 
+				<p> The title itself is also inspired from the word plasticity, which denotes it has the capability to be stretched, molded or altered thus the objective of the advocacy - to mold the society's awareness about the effects of using plastics.
+			</p></div>
+			<div class="content-item box3">"LESS PLASTICS IN THE CITY"</div>
+			<div class="content-item box4"></div>
+			<div class="content-item box5"></div>
+			<div class="content-item box6"></div>
+		</div>
+		<div class="content2">
+		<div class="content-item box7">PLASTIC POLLUTION</div>
+		<div class="content-item box8"></div>
+		<div class="content-item box9"></div>
+		<div class="content-item box10">Plastic never goes&nbsp<div id="away">away</div>.</div>
+		<div class="content-item box11"><p>Plastic is a durable material made to last forever, yet 33 percent of it is used once and then discarded. Plastic cannot biodegrade; it breaks down into smaller and smaller pieces.</p></div>
+		<div class="content-item box12">Plastic threatens&nbsp<div id="away">wildlife</div>.</div>
+		<div class="content-item box13"><p>Entanglement, ingestion and habitat disruption all result from plastic ending up in the spaces where animals live. In our oceans alone, plastic debris outweighs zooplankton by a ratio of 36-to-1.</p></div>
+		<div class="content-item box14">Plastic destroys our&nbsp<div id="away">environment</div>.</div>
+		<div class="content-item box15"><p>Filipinos alone discard more than 30 million tons of plastic a year; only 8 percent of it gets recycled. The rest ends up in landfills or becomes 'litter', and a small portion is incinerated. </p></div>
+
+		<div class="content-item box16">Plastic spoils our&nbsp<div id="away">groundwater</div>.</div>
+		<div class="content-item box17"><p>There are tens of thousands of landfills across the globe. Buried beneath each one of them, plastic leachate full of toxic chemicals is seeping into groundwater and flowing downstream into lakes and rivers.</p></div>
+
+		<div class="content-item box18">Plastic spoils our&nbsp<div id="away">foodchain</div>.</div>
+		<div class="content-item box19"><p>Even plankton, the tiniest creatures in our oceans, are eating microplastics and absorbing their toxins. The substance displaces nutritive algae that creatures up the food chain require. </p></div>
+
+		<div class="content-item box20">Plastic affects&nbsp<div id="away">humanhealth</div>.</div>
+		<div class="content-item box21"><p>Chemicals leached by plastics are in the blood and tissue of nearly all of us. Exposure to them is linked to cancers, birth defects, impaired immunity, endocrine disruption and other ailments.</p></div>
+
+	</div>
+</div>
+</header>
+</body>
+
+</html>
